@@ -1,0 +1,32 @@
+public class Latihan1 {
+    public static void main(String args[]) {
+        int totalBelanja = 80000;
+        int umur = 35;
+        int beratBadan = 63;
+        int potongan = 0;
+        total = 80000 - 0;
+        if(totalBelanja >70000 && umur > 17) {
+            // kondisi true
+            if( umur >= 18 && umur <= 25) {
+              persentasePotongan = beratBadan / 10;
+              potongan = totalBelanja * persentaseppotongan / 100;  
+            } else if(umur >=26 && <=50){
+                persentasePotongan = beratBadan / 5;
+                potongan = totalBelanja * persentassePotongan /100;
+            } else {
+                persentasepotongan = beratBadan / 2;
+                potongan = totalBelanja * persentasePotongan/ 100;
+            }
+            System.out.println("Anda mendapatkan" + "potongan" + persentasePotongan + "%" + "dari" + totalBelanja + "sebesar Rp" + potongan);
+        }  else {
+            // kondisi false
+            system.out.println("Anda belum mendapatkan promo");
+        }
+        System.out.println("\n..............................");
+        System.out.println("umur :  " + umur);
+        System.out.println("Berat Badan : " + beratBadan);
+        System.out.println("Total Belanja : " + totalBelanja);
+        System.out.println("Potongan promo : " + potonganPromo);
+        System.out.println("Totan harus dibayar : " + totalBelanja - potongan);
+    }
+}
